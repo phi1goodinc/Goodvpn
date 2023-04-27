@@ -1,3 +1,58 @@
 .main {
     flex-grow: 1;
 }
+
+.connection_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.connection_button {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.connection_button button{
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+.loader {
+    width: 220px;
+    height: 220px;
+    background-image: url("../../assets/images/loader.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/*@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}*/
+
+.connection_status {
+
+}
+
+@media (max-height: 710px){
+    .connection_section {
+        margin-bottom: 50px;
+    }
+
+    .connection_button {
+        position: relative;
+        margin-bottom: 30px;
+    }
+}

@@ -1,8 +1,10 @@
 .header {
-    padding: 60px 25px 0 25px;
+    padding: 0 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .menu {
@@ -47,4 +49,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-height: 710px){
+    .header {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
 }

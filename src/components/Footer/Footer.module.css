@@ -1,0 +1,76 @@
+.footer {
+    height: 85px;
+    flex-shrink: 1;
+    background-color: #2C2149;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_section {
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 15px;
+}
+.tittle_block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.title {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.subtitle {
+    margin: 5px 0 5px;
+}
+
+.bubble {
+    background: #EF2C74;
+    width: 45px;
+    height: 20px;
+    border-radius: 300px 300px 300px 5px;
+    text-align: center;
+}
+
+.tg_circle {
+    width: 51px;
+    height: 51px;
+    background: #2C2149;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_empty {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(180deg,  #210a5b 0%, #230865 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -26px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up_chevron {
+    width: 24px;
+    height: 24px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+

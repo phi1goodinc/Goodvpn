@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+  background: url("assets/images/planet-left-bg.svg") left top 120px/30px no-repeat,
+              url("assets/images/planet-right-bg.svg") center right/50px no-repeat,
+              url("./assets/images/background-stars.svg") center/cover repeat,
+              linear-gradient(180deg, #190F32 0%, #230865 100%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 
 .App-logo {
   height: 40vmin;
